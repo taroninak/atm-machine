@@ -1,0 +1,35 @@
+{
+  "name": "atm-machine",
+  "version": "1.0.0",
+  "description": "Simple ATM Machine Simulator",
+  "main": "index.js",
+  "scripts": {
+    "test": "nyc mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/taroninak/atm-machine.git"
+  },
+  "keywords": [
+    "atm",
+    "machine",
+    "simulator",
+    "node"
+  ],
+  "author": "Taron Petrosyan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/taroninak/atm-machine/issues"
+  },
+  "homepage": "https://github.com/taroninak/atm-machine#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^6.2.2",
+    "nyc": "^14.1.1",
+    "sinon": "^7.5.0"
+  },
+  "mocha": {
+    "spec": "test/**/*Test.js"
+  }
+}
